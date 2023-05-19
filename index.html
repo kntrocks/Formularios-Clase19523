@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formularios</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       <h1>Formulario de Registro</h1>
+      <div>
+        <form action="" method="get">
+            <p>Nombre: <input type="text" name="nombre" size="30"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+            <p>Sexo:
+              <input type="radio" name="sexo" value="h"> Hombre
+              <input type="radio" name="sexo" value="m"> Mujer
+            </p>
+            <p>Correo: <input type="text" name="correo" size="30"></p>
+            <p>
+                <label>
+                    <input type="checkbox" id="cbox1" value="primercheck">Deseo recibir informacion</label><br>
+                    <input type="checkbox" id="cbox1" value="segundocheck">Declaro haber leido los terminos y condiciones</label><br>
+                </label>
+            <br>
+                <input type="submit" value="Enviar">
+            </p>
+          </form>
+      </div>
+    <div>
+        <form action="#">
+            <label for="country">Poblacion</label>
+            <select name="paises" id="paises">
+              <option value="argentina">Argentina</option>
+              <option value="france">Francia</option>
+              <option value="colombia">Colombia</option>
+              <option value="parana">Parana</option>
+              <option value="venezuela">Venezuela</option>
+            </select>
+            <p>Descripcion: <br> <textarea input name="descripcion" id="descrip" cols="45" rows="10" ></textarea></p>
+      </form>
+            <input type="submit" value="Enviar">
+    </div>
+            <script src="" async defer></script>
+    </body>
+</html>
